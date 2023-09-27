@@ -16,23 +16,20 @@ ul li{
     }
 }
 
+
+
 img{
     width: 80px;
     height: 80px;
     display: block;
 }
 
-#Posts{
-    align-self: center;
-    background-color: blueviolet;
-}
-
-img{
+.postericon img{
     width: 20px;
     height: 20px;
 }
 
-.contentpicture{
-    width: 100px;
-    height: 100px;
+.contentpicture img{
+    width: 200px;
+    height: 200px;
 }
