@@ -31,14 +31,22 @@ ul li{
     }
 }
 
+
+
 .logo > img{
     width: 80px;
     height: 80px;
     display: block;
 }
 
-#Posts{
-    align-self: center;
+.postericon img{
+    width: 20px;
+    height: 20px;
+}
+
+.contentpicture img{
+    width: 200px;
+    height: 200px;
 }
 
 .postericon ~ p{
