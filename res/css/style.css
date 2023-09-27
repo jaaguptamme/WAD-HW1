@@ -1,3 +1,7 @@
 header{
     display: block;
 }
+
+#Posts{
+    align-self: center;
+}
