@@ -4,4 +4,15 @@ header{
 
 #Posts{
     align-self: center;
+    background-color: blueviolet;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.contentpicture{
+    width: 100px;
+    height: 100px;
 }
