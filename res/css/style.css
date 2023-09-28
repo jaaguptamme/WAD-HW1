@@ -1,19 +1,34 @@
-
+p{
+    font-size: 2em;
+}
 header, footer{
-    background-color: gray;
-    border-radius: 10px 10px;
     display: flex;
+}
+
+header, footer, #rightBox, #leftBox, #PostPhoto, #PostText, #loginForm{
+    background-color: gray;
+    border-radius: 1em 1em;
+    margin: 0.3em;
+}
+
+#Posts{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#PostPhoto, #PostText, #loginForm{
+    background-color: gainsboro;
 }
 
 #content{
     display: grid;
-    grid-template-columns: 100px 150px 200px;
+    grid-template-columns: 1fr 2.5fr 1fr;
     text-align: center;
-    width: 100%;
 }
 
 footer{
     justify-content: space-around;   
+    
 }
 
 .PostPhoto,.PostText{
