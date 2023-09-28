@@ -72,3 +72,7 @@ img{
     width: 50px;
     height: 50px;
 }
+
+.nav:hover{
+    background-color: red;
+}
