@@ -13,20 +13,23 @@
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
     </ul>
-    <a class="logo" href="login.html"><img src="res/images/icon.png" alt="Login icon"></a>
+    <a class="logo" href="login.html"><img src="res/images/icon.jpg" alt="Login icon"></a>
     </header>
     <div id="content">
       <div id></div>
       <div id="loginForm">
-        <h2>Welcome to PostIt</h2>
-        <form action="index.html" method="get">
-          <p>Log in:</p>
-          <input type="text" placeholder="Username" name="username" required><br>
-          <input type="password" placeholder="Password" name="password" required><br>
-          <input type="submit" value="Log in">
+        <form action="index.html" method="post">
+          <h2>Welcome to PostIt</h2>
+          <p class="blueText">Create an account</p>
+          <p>or</p>
+          <p>Please log in</p>
+          <div class="inputs">
+            <input type="email" placeholder="Email" name="email" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="submit" value="Log in">
+          </div>
+          <p class="blueText">Forget password</p>
         </form>
-        <a href="">Create an account</a>
-        <a href="">Forgot password?</a>
       </div>
       <div></div>
     </div>

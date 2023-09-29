@@ -12,25 +12,26 @@
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
     </ul>
-    <a class="logo" href="login.html"><img src="res/images/icon.png" alt="Login icon"></a>
+    <a class="logo" href="login.html"><img src="res/images/icon.jpg" alt="Login icon"></a>
     </header>
-      <div id="content">
+    <div id="content">
       <div id></div>
       <div id="addPostForm">
         <form action="index.html" method="post">
-          <p><label for="postbody">Post body</label></p>
-          <textarea id="postbody" placeholder="textarea" name="postbody" rows="4" cols="50"></textarea> <br>
-          <label for="selectfile">Select file</label>
-          <input type="file" id="selectfile" name="selectfile"><br><br>         
-          <input type="submit" value="Add post">
+          <div>
+            <div class="inputRow">
+              <label for="postbody">Post body</label>
+              <textarea id="postbody" placeholder="textarea" name="postbody"></textarea>
+            </div> 
+            <div class="inputRow">
+              <label for="selectfile">Select file</label>
+              <input type="file" id="selectfile" name="selectfile">
+            </div>
+          </div>         
+          <input type="submit" value="Create post">
         </form>
-        
       </div>
       <div></div>
-      </div>
-    </body>
-    <footer>
-        
-    </footer>
+    </div>
   </body>
 </html>

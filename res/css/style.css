@@ -1,14 +1,27 @@
-p{
+p, a,.pipe, label{
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h2{
     font-size: 2em;
 }
+
+a{
+    color: black;
+}
+
 header, footer{
     display: flex;
 }
 
-header, footer, #rightBox, #leftBox, #PostPhoto, #PostText, #loginForm{
+header, footer, #rightBox, #leftBox, .PostPhoto, .PostText, #loginForm, #addPostForm{
     background-color: gray;
     border-radius: 1em 1em;
-    margin: 0.3em;
+    margin: 0.5em;
+    padding: 1em;
 }
 
 #Posts{
@@ -16,7 +29,19 @@ header, footer, #rightBox, #leftBox, #PostPhoto, #PostText, #loginForm{
     margin-right: 2em;
 }
 
-#PostPhoto, #PostText, #loginForm{
+.topRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.topRow *{
+    align-self: center;
+    display: block;
+    margin: 0.1rem;
+}
+
+.PostPhoto, .PostText, #loginForm, #addPostForm{
     background-color: gainsboro;
 }
 
@@ -26,13 +51,12 @@ header, footer, #rightBox, #leftBox, #PostPhoto, #PostText, #loginForm{
     text-align: center;
 }
 
-footer{
-    justify-content: space-around;   
-    
+#leftBox + div{
+    text-align: left;
 }
 
-.PostPhoto,.PostText{
-    display: flex;
+footer{
+    justify-content: space-around;   
 }
 
 ul li{
@@ -46,33 +70,89 @@ ul li{
     }
 }
 
-
-
 .logo > img{
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     display: block;
 }
 
-.postericon img{
-    width: 20px;
-    height: 20px;
+img{
+    width: 4rem;
+    height: 4rem;
 }
 
-.contentpicture img{
-    width: 200px;
-    height: 200px;
+.contentpicture{
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .postericon ~ p{
     align-self:flex-end;
 }
 
-img{
-    width: 50px;
-    height: 50px;
+
+.nav a:hover{
+    background-color: red;
 }
 
-.nav:hover{
-    background-color: red;
+
+#postericon{
+    display: inline-block;
+}
+
+.pipe{
+    font-weight: bold;
+}
+
+.inputRow{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2em;
+}
+
+.inputRow label{
+    width: 25%;
+}
+
+.inputRow label + *{
+    min-width: 75%;
+}
+
+textarea{
+    min-height: 8rem;
+}
+
+input[type=file]{
+    font-size: 2rem;
+    width: 0;
+    color: transparent;
+}
+
+input[type=submit]{
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+}
+
+.blueText{
+    color: rgb(0, 204, 255);
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs input{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.inputs input[type=submit]{
+    width: 6rem;
 }
