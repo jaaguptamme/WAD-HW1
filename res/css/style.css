@@ -70,6 +70,15 @@ ul li{
     }
 }
 
+@media(max-width: 800px) {
+    #leftBox, #rightBox{
+        display: none;
+    }
+    #content{
+        grid-template-columns: 1fr;
+    }
+}
+
 .logo > img{
     width: 5rem;
     height: 5rem;
