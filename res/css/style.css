@@ -17,7 +17,7 @@ header, footer{
     display: flex;
 }
 
-header, footer, #rightBox, #leftBox, .PostPhoto, .PostText, #loginForm, #addPostForm{
+header, footer, #rightBox, #leftBox, .PostPhoto, .PostText, #loginForm, #addPostForm, .logo + div{
     background-color: gray;
     border-radius: 1em 1em;
     margin: 0.5em;
@@ -76,6 +76,14 @@ ul li{
     }
     #content{
         grid-template-columns: 1fr;
+    }
+    header, .nav{
+        flex-direction: column;
+    }
+    .logo + div{
+        left: 1.5em;
+        width: 15em;
+        top: 10.8em !important;
     }
 }
 
@@ -164,4 +172,13 @@ input[type=submit]{
 
 .inputs input[type=submit]{
     width: 6rem;
+}
+
+.logo + div{
+    position: absolute;
+    top: 6rem;
+    right: 1.5rem;
+    font-size: 1rem;
+    background-color: gainsboro;
+    display: none;
 }

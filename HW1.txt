@@ -1,0 +1,3 @@
+Team number: Group J
+Team members: Andres Alumets, Kevin Poljans, Jaagup Tamme
+Link to repo: https://github.com/jaaguptamme/WAD-HW1
