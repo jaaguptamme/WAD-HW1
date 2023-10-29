@@ -74,6 +74,13 @@ if(document.querySelector("#Posts")){
             addPostToPage(post);
         }
     })
+    fetch("https://api.npoint.io/8dc6ed75e0b80340df78")
+    .then((res) => res.json())
+    .then((posts) => {
+        for(post of posts){
+            addPostToPage(post);
+        }
+    })
     /*let text='';
    
     console.log(j);
