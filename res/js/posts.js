@@ -17,7 +17,7 @@ function addPostToPage(postJSON){//JSON object of post
     let topRowaTag=document.createElement("a");//Creating element for author icon
     topRowaTag.classList.add("postericon");//Add the right class to it
     let topRowPicture=document.createElement("img");//Inside it lets create an img tag
-    topRowPicture.setAttribute("src","res/images/icon.jpg");
+    topRowPicture.setAttribute("src",postJSON.icon);//Load img from JSON
     topRowaTag.appendChild(topRowPicture);//Add img tag inside a tag
     topRowDiv.appendChild(topRowaTag);
     let dateElement=document.createElement("p");//Lets create date element

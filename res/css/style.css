@@ -1,3 +1,6 @@
+body{
+    background-color: #87C4FF;
+}
 p, a,.pipe, label{
     font-size: 2em;
     line-height: 1.5em;
@@ -18,7 +21,7 @@ header, footer{
 }
 
 header, footer, #rightBox, #leftBox, .PostPhoto, .PostText, #loginForm, #addPostForm, .logo + div{
-    background-color: gray;
+    background-color: #39A7FF;
     border-radius: 1em 1em;
     margin: 0.5em;
     padding: 1em;
@@ -42,7 +45,7 @@ header, footer, #rightBox, #leftBox, .PostPhoto, .PostText, #loginForm, #addPost
 }
 
 .PostPhoto, .PostText, #loginForm, #addPostForm{
-    background-color: gainsboro;
+    background-color: #E0F4FF;
 }
 
 #content{
@@ -91,6 +94,11 @@ ul li{
     width: 5rem;
     height: 5rem;
     display: block;
+    border-radius: 2em;
+}
+
+.postericon img{
+    border-radius: 2rem;
 }
 
 img{
@@ -179,6 +187,10 @@ input[type=submit]{
     top: 6rem;
     right: 1.5rem;
     font-size: 1rem;
-    background-color: gainsboro;
+    background-color: #E0F4FF;
     display: none;
+}
+
+input, textarea, input::file-selector-button{
+    background-color: #E0F4FF;
 }
