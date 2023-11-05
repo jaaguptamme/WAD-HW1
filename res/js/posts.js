@@ -56,8 +56,9 @@ let nameP=document.createElement("p");//Add username as first row
 nameP.innerText="John Doe";//Values are hardcoded, but also could easily be fetched from external source like posts
 let emailP=document.createElement("p");//Then email address
 emailP.innerText="john.doe@ut.ee";
-let logoutP=document.createElement("p");//And lastly logout
+let logoutP=document.createElement("a");//And lastly logout
 logoutP.innerText="logout";
+logoutP.href="/login.html"
 newDiv.appendChild(nameP);//Add all rows to this div
 newDiv.appendChild(emailP);
 newDiv.appendChild(logoutP);
