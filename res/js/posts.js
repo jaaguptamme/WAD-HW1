@@ -68,17 +68,17 @@ document.querySelector(".logo img").addEventListener('click',toggleDropDown);//L
 toggleDropDown();//Lets run it one time to hide the dropdown at first
 
 if(document.querySelector("#Posts")){//If we are at the posts page, not any other
-    fetch("res/posts.json")//Then read in posts file
+    fetch("res/posts.json")//Then read in posts file, validated using https://jsonlint.com/
     .then((res) => res.json())//Convert it to JSON
     .then((posts) => {
-        for(post of posts){//For each post, we add it to the end of all posts
+        for(let post of posts){//For each post, we add it to the end of all posts
             addPostToPage(post);
         }
     })
     fetch("https://api.npoint.io/8dc6ed75e0b80340df78")//Read JSON file from api endpoint
     .then((res) => res.json())//Parse it as JSON
     .then((posts) => {
-        for(post of posts){//Add each post to end of the posts
+        for(let post of posts){//Add each post to end of the posts
             addPostToPage(post);
         }
     })

@@ -1,66 +1,57 @@
 [
-    { 
-        "date" : "Oct 2, 2023", 
+    {
+        "date": "Oct 2, 2023",
         "text": "Why did chicken cross road?",
-        "icon":  "https://cdn-icons-png.flaticon.com/512/666/666201.png"
+        "icon": "https://cdn-icons-png.flaticon.com/512/666/666201.png"
     },
-
-    { 
-        "date" : "Nov 11, 2022", 
-        "text": "Anyone knows in which room is the lab today?", 
-        "pictureLink":"https://www.ecb.ee/wp-content/uploads/2022/06/Tartu-2024-1980x1321.jpg",
-        "icon":  "https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-grey-male-icon.png"
+    {
+        "date": "Nov 11, 2022",
+        "text": "Anyone knows in which room is the lab today?",
+        "pictureLink": "https://www.ecb.ee/wp-content/uploads/2022/06/Tartu-2024-1980x1321.jpg",
+        "icon": "https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-grey-male-icon.png"
     },
-
-    { 
-        "date" : "Oct 3, 2023", 
-        "text": "Great article! I found your tips on time management very helpful and practical. I'll definitely be implementing some of these strategies in my daily routine. Thanks for sharing your insights!", 
-        "icon":  "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    {
+        "date": "Oct 3, 2023",
+        "text": "Great article! I found your tips on time management very helpful and practical. I'll definitely be implementing some of these strategies in my daily routine. Thanks for sharing your insights!",
+        "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
     },
-
-    { 
-        "date" : "Oct 4, 2023", 
-        "text": "Im Psyduck!!!", 
-        "icon":  "https://pm1.aminoapps.com/6761/d63cf8f1a27519a70c9e5b86c45a5b2bb1fe8f85v2_hq.jpg"
+    {
+        "date": "Oct 4, 2023",
+        "text": "Im Psyduck!!!",
+        "icon": "https://pm1.aminoapps.com/6761/d63cf8f1a27519a70c9e5b86c45a5b2bb1fe8f85v2_hq.jpg"
     },
-
-    { 
-        "date" : "Oct 5, 2023", 
-        "text": "Insightful post! Concise, practical advice. Thanks for sharing your expertise. Looking forward to more content!", 
-        "pictureLink":"https://ih1.redbubble.net/image.490263180.2295/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-        "icon":  "https://cdn-icons-png.flaticon.com/512/666/666201.png"
+    {
+        "date": "Oct 5, 2023",
+        "text": "Insightful post! Concise, practical advice. Thanks for sharing your expertise. Looking forward to more content!",
+        "pictureLink": "https://ih1.redbubble.net/image.490263180.2295/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+        "icon": "https://cdn-icons-png.flaticon.com/512/666/666201.png"
     },
-
-    { 
-        "date" : "Oct 6, 2023", 
-        "text": "This article was unhelpful and poorly researched.", 
-        "icon":  "https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-grey-male-icon.png"
+    {
+        "date": "Oct 6, 2023",
+        "text": "This article was unhelpful and poorly researched.",
+        "icon": "https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-grey-male-icon.png"
     },
-
-    { 
-        "date" : "Oct 7, 2023", 
-        "text": "Why don't scientists trust atoms?\n  -- Because they make up everything!", 
-        "pictureLink":"https://media.wired.co.uk/photos/606db25a85fac47146ccc6c3/master/w_1600%2Cc_limit/emoji_6.jpg",
-        "icon":  "https://static.thenounproject.com/png/949331-200.png"
+    {
+        "date": "Oct 7, 2023",
+        "text": "Why don't scientists trust atoms?\n  -- Because they make up everything!",
+        "pictureLink": "https://media.wired.co.uk/photos/606db25a85fac47146ccc6c3/master/w_1600%2Cc_limit/emoji_6.jpg",
+        "icon": "https://static.thenounproject.com/png/949331-200.png"
     },
-
-    { 
-        "date" : "Oct 8, 2023", 
-        "text": "Why did the scarecrow win an award?\n -- Because he was outstanding in his field!", 
-        "icon":  "https://static.thenounproject.com/png/949331-200.png"
+    {
+        "date": "Oct 8, 2023",
+        "text": "Why did the scarecrow win an award?\n -- Because he was outstanding in his field!",
+        "icon": "https://static.thenounproject.com/png/949331-200.png"
     },
-
-    { 
-        "date" : "Oct 9, 2023", 
-        "text": "Bananas are the only fruit that floats in water. Imagine a banana boat race at a fruit Olympics!", 
-        "pictureLink":"https://www.shutterstock.com/image-photo/small-lunch-box-sized-banana-260nw-151848638.jpg",
-        "icon":  "https://cdn-icons-png.flaticon.com/512/4600/4600333.png"
+    {
+        "date": "Oct 9, 2023",
+        "text": "Bananas are the only fruit that floats in water. Imagine a banana boat race at a fruit Olympics!",
+        "pictureLink": "https://www.shutterstock.com/image-photo/small-lunch-box-sized-banana-260nw-151848638.jpg",
+        "icon": "https://cdn-icons-png.flaticon.com/512/4600/4600333.png"
     },
-
-    { 
-        "date" : "Oct 10, 2023", 
-        "text": "Purple flying elephants wearing top hats and monocles serenaded the moon with kazoo symphonies last night.", 
-        "pictureLink":"https://images.squarespace-cdn.com/content/v1/59820cf8bf629a7f487ef432/1501937077171-2FWCBOGXG0VPSLMFJLXL/Elephant.png",
-        "icon":  "https://en.meming.world/images/en/thumb/4/4b/Shocked_Black_Guy.jpg/300px-Shocked_Black_Guy.jpg"
+    {
+        "date": "Oct 10, 2023",
+        "text": "Purple flying elephants wearing top hats and monocles serenaded the moon with kazoo symphonies last night.",
+        "pictureLink": "https://images.squarespace-cdn.com/content/v1/59820cf8bf629a7f487ef432/1501937077171-2FWCBOGXG0VPSLMFJLXL/Elephant.png",
+        "icon": "https://en.meming.world/images/en/thumb/4/4b/Shocked_Black_Guy.jpg/300px-Shocked_Black_Guy.jpg"
     }
 ]
